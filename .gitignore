@@ -1,0 +1,55 @@
+# Ignoring generated files #
+############################
+bin
+gen
+target
+
+# Ignore Android project's 'gen', 'bin', 'build', 'target' directories
+gen
+bin
+build
+target
+
+# Ignore eclipse's '.settings' directory
+.settings
+
+# Ignore checkstyle configuration file
+.checkstyle
+
+# Ignore eclipse's '.metadata' directory
+.metadata
+
+# Ignore local cfg files
+ant.properties
+local.properties
+lint.xml
+
+# Ignore Android Studio project files
+*.iml
+.idea
+
+# Ignore proguard
+proguard
+
+# OS generated files #
+.DS_Store*
+ehthumbs.db
+Icon?
+Thumbs.db
+
+# Gradle bin
+.gradle/
+gradle*.zip
+
+# Sonar
+.sonar
+
+# Build on Jenkins with Gradle Home set to current directory
+caches
+native
+wrapper
+daemon
+env.properties
+jacoco.exec
+
+local.properties
